@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/background.jpg');
+}
+
+.container{
+    background: rgba(67, 67, 90, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+
+.form_head{
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.blocks {
+    margin-bottom: 20px;
+}
+
+.blocks div{
+    margin-bottom: 10px;
+}
+
+.blocks div .tagn{
+    font-size: 15px;
+    font-weight: 550;
+    margin-bottom: 2px;
+}
+
+.blocks div input{
+    width: 250px;
+    height: 25px;
+    font-size: 15px;
+    padding: 2px 5px 2px 5px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+.form_body .btn button{
+    width: 264px;
+    height: 25px;
+    padding: 5px 5px 24px 5px ;
+    background-color: rgb(70, 172, 109);
+    color: rgb(248, 241, 241);
+    margin-bottom: 5px;
+    border: 1px solid rgb(65, 160, 101) ;
+    font-size: 15px;
+}
+
+.form_body .btn p{
+    font-size: 13px;
+    
+}
+
+.form_body .btn{
+    margin-bottom: 15px;
+}
+
+.form_body .acc button{
+    width: 264px;
+    height: 25px;
+    padding: 5px 5px 24px 5px ;
+    background-color: rgb(245, 242, 242);
+    border: 1px solid rgb(199, 199, 199);
+    font-size: 15px;
+}
+
